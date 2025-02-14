@@ -6,3 +6,150 @@ https://www.youtube.com/watch?v=1jfHFNSPJO0
 
 Probability and Statistics
 https://www.youtube.com/playlist?list=PLxCzCOWd7aiFjZP4z1_3Kr3m3J5wu5Q8V
+
+Key Terms and Symbols in Descriptive Statistics
+They are the following:
+Descriptive statistics: The branch of statistics that involves organizing, summarizing,
+ and displaying data.
+Population: The set of all elements of interest in a particular study.
+Sample: A subset of the population.
+
+"Measures of central tendency" refer to statistics that describe the typical or middle value of a dataset, 
+like the mean, median, and mode, while "Measures of Dispersion" 
+describe how spread out the data is, including the range, variance, 
+and standard deviation; essentially, central tendency tells you where 
+the data is centered, while dispersion tells you how widely the data is distributed around 
+that center point.
+
+Measures of Central Tendency
+Mean (Average):
+
+The sum of all values divided by the number of values.
+Example: For the dataset [2, 4, 6, 8, 10], the mean is (2 + 4 + 6 + 8 + 10) / 5 = 30 / 5 = 6.
+
+Median:
+
+The middle value when the data is ordered from least to greatest. If there is an even number of observations, the median is the average of the two middle numbers.
+Example: For the dataset [2, 4, 6, 8, 10], the median is 6. For the dataset [2, 4, 6, 8], the median is (4 + 6) / 2 = 5.
+
+Mode:
+
+The value that appears most frequently in a dataset.
+Example: For the dataset [2, 4, 4, 6, 8], the mode is 4 because it appears most frequently.
+
+Measures of Dispersion(How spread your data is wrt to mean):
+
+Range:
+
+The difference between the highest and lowest values in a dataset.
+Example: For the dataset [2, 4, 6, 8, 10], the range is 10 - 2 = 8.
+
+Variance:
+
+The average of the squared differences from the mean.
+Example: For the dataset [2, 4, 6, 8, 10], the mean is 6. 
+The squared differences from the mean are (2-6)², (4-6)², (6-6)², (8-6)², (10-6)² 
+which are 16, 4, 0, 4, 16. The variance is (16 + 4 + 0 + 4 + 16) / 5 = 40 / 5 = 8.
+
+Standard Deviation:
+
+The square root of the variance. It provides a measure of the average distance from the mean.
+Example: For the dataset [2, 4, 6, 8, 10], the variance is 8. The standard deviation is √8 ≈ 2.83.
+
+Percentile
+Definition: A percentile is a measure used in statistics to indicate the value below which a given percentage of observations in a dataset fall. For example, the 25th percentile is the value below which 25% of the observations may be found.
+Example: If you have a dataset of exam scores for 100 students, and a student's score is at the 90th percentile, it means that the student scored better than 90% of the other students.
+Quartile
+Definition: Quartiles are values that divide a dataset into four equal parts, each containing 25% of the data. There are three quartiles:
+First Quartile (Q1): Also known as the 25th percentile, it is the value below which 25% of the data fall.
+Second Quartile (Q2): Also known as the median or the 50th percentile, it is the value below which 50% of the data fall.
+Third Quartile (Q3): Also known as the 75th percentile, it is the value below which 75% of the data fall.
+Example: For the dataset [2, 4, 6, 8, 10, 12, 14, 16], the quartiles are:
+Q1 (25th percentile) = 5
+Q2 (50th percentile or median) = 9
+Q3 (75th percentile) = 13
+These measures help to understand the distribution of data by dividing it into parts and identifying the spread and central tendency of the dataset.
+
+
+
+Definitions:
+
+Quartiles
+Quartiles are values that divide a dataset into four equal parts, each containing 25% of the data. There are three quartiles:
+
+First Quartile (Q1):
+
+Also known as the 25th percentile, it is the value below which 25% of the data fall.
+Example: For the dataset [2, 4, 6, 8, 10, 12, 14, 16], Q1 is 5. This means that 25% of the data values are less than or equal to 5.
+Second Quartile (Q2):
+
+Also known as the median or the 50th percentile, it is the value below which 50% of the data fall.
+Example: For the dataset [2, 4, 6, 8, 10, 12, 14, 16], Q2 is 9. This means that 50% of the data values are less than or equal to 9.
+Third Quartile (Q3):
+
+Also known as the 75th percentile, it is the value below which 75% of the data fall.
+Example: For the dataset [2, 4, 6, 8, 10, 12, 14, 16], Q3 is 13. This means that 75% of the data values are less than or equal to 13.
+These quartiles help to understand the distribution of data by dividing it into parts and identifying the spread and central tendency of the dataset.
+Interquartile Range (IQR):
+
+The IQR is a measure of statistical dispersion and is calculated as the difference between the third quartile (Q3) and the first quartile (Q1).
+Formula: IQR = Q3 - Q1
+Lower Fence:
+
+The lower fence is a threshold used to identify potential outliers below the lower end of the dataset.
+Formula: Lower Fence = Q1 - 1.5 * IQR
+Upper Fence:
+
+The upper fence is a threshold used to identify potential outliers above the upper end of the dataset.
+Formula: Upper Fence = Q3 + 1.5 * IQR
+Sample Calculation for Outlier Removal
+Let's use the dataset [2, 4, 6, 8, 10, 12, 14, 16] as an example.
+
+Calculate Quartiles:
+
+Q1 (First Quartile) = 5
+Q2 (Median or Second Quartile) = 9
+Q3 (Third Quartile) = 13
+Calculate IQR:
+
+IQR = Q3 - Q1 = 13 - 5 = 8
+Calculate Lower Fence:
+
+Lower Fence = Q1 - 1.5 * IQR = 5 - 1.5 * 8 = 5 - 12 = -7
+Calculate Upper Fence:
+
+Upper Fence = Q3 + 1.5 * IQR = 13 + 1.5 * 8 = 13 + 12 = 25
+Identify Outliers:
+
+Any data point below the lower fence (-7) or above the upper fence (25) is considered an outlier.
+In this dataset, there are no outliers because all values fall within the range [-7, 25].
+Outlier Removal
+To remove outliers from a dataset, you can simply exclude any values that fall outside the lower and upper fences.
+
+Example: If the dataset were [2, 4, 6, 8, 10, 12, 14, 16, 30], the value 30 would be considered an outlier because it is greater than the upper fence (25). You would remove 30 from the dataset to exclude the outlier.
+
+By using the IQR and fences, you can effectively identify and remove outliers to ensure a more accurate analysis of your data.
+
+Z-Score
+Definition: A Z-score (also known as a standard score) indicates how many standard deviations an element is from the mean of the dataset. It is a way to standardize scores on a common scale without units.
+Interpretation
+A Z-score of 0.71 means that the value 8 is 0.71 standard deviations above the mean of the dataset. Z-scores can be used to compare values from different datasets or to identify outliers (typically, values with Z-scores less than -3 or greater than 3 are considered outliers).
+
+Standard Normal Distribution
+Definition: The standard normal distribution is a special case of the normal distribution with a mean of 0 and a standard deviation of 1. It is a symmetric, bell-shaped distribution where the total area under the curve is equal to 1.
+
+Standardization: Standardization (or Z-score normalization) is the process of converting individual data points to a common scale with a mean of 0 and a standard deviation of 1. This is done using the Z-score formula
+
+Purpose of Standardization
+Comparison:
+
+Standardization allows for the comparison of scores from different datasets or distributions by converting them to a common scale.
+Outlier Detection:
+
+Z-scores can help identify outliers. Typically, values with Z-scores less than -3 or greater than 3 are considered outliers.
+Normalization:
+
+Standardization is often used in machine learning and statistical analysis to normalize data, ensuring that each feature contributes equally to the analysis.
+https://www.statisticshowto.com/tables/z-table/
+
+
