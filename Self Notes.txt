@@ -153,3 +153,16 @@ Standardization is often used in machine learning and statistical analysis to no
 https://www.statisticshowto.com/tables/z-table/
 
 
+Courses:
+https://www.youtube.com/playlist?list=PLblh5JKOoLUK0FLuzwntyYI10UQFUhsY9
+
+https://www.youtube.com/playlist?list=PLTDARY42LDV6YHSRo669_uDDGmUEmQnDJ
+
+https://www.udemy.com/course/the-data-science-course-complete-data-science-bootcamp/?couponCode=JUST4U02223
+
+https://www.udemy.com/course/probability-and-statistics-for-business-and-data-science/?couponCode=NVDIN35#instructor-2
+
+https://codebasics.io/courses/math-and-statistics-for-data-science
+
+https://www.krishnaik.in/playlists
+
