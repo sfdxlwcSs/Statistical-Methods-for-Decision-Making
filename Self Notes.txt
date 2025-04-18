@@ -134,7 +134,7 @@ Z-Score
 Definition: A Z-score (also known as a standard score) indicates how many standard deviations an element is from the mean of the dataset. It is a way to standardize scores on a common scale without units.
 Interpretation
 A Z-score of 0.71 means that the value 8 is 0.71 standard deviations above the mean of the dataset. Z-scores can be used to compare values from different datasets or to identify outliers (typically, values with Z-scores less than -3 or greater than 3 are considered outliers).
-
+https://z-table.com/
 Standard Normal Distribution
 Definition: The standard normal distribution is a special case of the normal distribution with a mean of 0 and a standard deviation of 1. It is a symmetric, bell-shaped distribution where the total area under the curve is equal to 1.
 
